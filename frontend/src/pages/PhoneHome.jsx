@@ -32,15 +32,14 @@ export default function PhoneHome() {
                         </div>
                     </div>
 
-                    {/* Floating Languages */}
-                    <div className="relative hidden md:block">
-                        <div className="absolute top-0 left-0 text-blue-900 font-bold text-xl">हिंदी</div>
-                        <div className="absolute top-[5rem] right-[6rem] text-orange-500 font-bold text-xl">घऱां</div>
-                        <div className="absolute top-[3rem] right-[2rem] text-blue-900 font-bold text-xl">سنڌي</div>
-                        <div className="absolute top-[6rem] left-[10rem] text-yellow-400 font-bold text-xl">தமிழ்</div>
-                        <div className="absolute top-[8rem] right-[9rem] text-pink-500 font-bold text-xl">বাংলা</div>
-                        <div className="absolute top-[12rem] right-[11rem] text-green-600 font-extrabold text-xl">ગુજરાતી</div>
-                        <div className="absolute top-[7rem] right-[1rem] text-purple-600 font-bold text-xl">ਪੰਜਾਬੀ</div>
+                    <div className="">
+                        <div className="absolute bottom-24 text-blue-900 font-bold text-xl">हिंदी</div>
+                        <div className="absolute bottom-[5rem] right-[18rem] text-orange-500 font-bold text-xl">घऱां</div>
+                        <div className="absolute bottom-[10rem] right-[15rem] text-blue-900 font-bold text-xl">سنڌي</div>
+                        <div className="absolute bottom-24 right-[30rem] text-yellow-400 font-bold text-xl">தமிழ்</div>
+                        <div className="absolute bottom-[12rem] right-[20rem] text-pink-500 font-bold text-xl">বাংলা</div>
+                        <div className="absolute bottom-[17rem] right-[2rem] text-green-600 font-extrabold text-xl">ગુજરાતી</div>
+                        <div className="absolute bottom-[15rem] right-[12rem] text-purple-600 font-bold text-xl">ਪੰਜਾਬੀ</div>
                     </div>
                 </div>
             </section>
