@@ -4,7 +4,7 @@ import 'remixicon/fonts/remixicon.css';
 
 export default function Home() {
     return (
-        <div className="bg-orange-50 text-slate-900 ">
+        <div className="bg-white text-slate-900 ">
             <div class="fixed left-5 z-20">
                 <img src="sahaayaklogo.png" alt="Logo" class="w-1/5 py-5" />
             </div>
@@ -23,7 +23,7 @@ export default function Home() {
                             No forms, no confusion — just speak, and we’ll apply for you.
                         </p>
                         <div className="flex px-32">
-                            <button className="bg-slate-900 text-white px-16 py-3 rounded-full font-semibold">
+                            <button className="bg-slate-900 text-white px-16 py-3 rounded-full font-semibold transition-transform duration-200 hover:scale-105">
                                 Find and Apply Now
                             </button>
                         </div>
@@ -79,27 +79,67 @@ export default function Home() {
 
 
 
-            {/* Why Sahayak Connect */}
-            <section className="px-6 md:px-20 py-16">
-                <h2 className="text-2xl font-semibold mb-6">Why Sahayak Connect?</h2>
-                <div className="grid md:grid-cols-3 gap-6">
-                    <div className="text-center">
-                        <div className="text-4xl font-bold mb-2">🗣️</div>
-                        <h3 className="font-bold mb-1">Multilingual AI Agent</h3>
-                        <p>Understands voice and text in native Indian languages.</p>
+            {/* Why Sahayak Connect Section */}
+            <section className="bg-white px-6 md:px-20 py-16">
+                {/* Top Subsection */}
+                <div className="grid md:grid-cols-2 gap-16 items-start mb-16">
+
+                    {/* Left Text Block */}
+                    <div className="pl-28">
+                        <h2 className="text-xl md:text-3xl font-bold text-gray-900 mb-4">Why Sahayak Connect?</h2>
+                        <h3 className="font-bold text-gray-800 mb-1 text-l">Multilingual AI Agent</h3>
+                        <p className="text-l font-semibold text-gray-600 mb-4">
+                            Understands voice and text in native Indian languages.
+                        </p>
+                        <button className="bg-orange-50 transition-transform duration-200 hover:scale-105 text-sm px-20 py-2 rounded-full flex items-center gap-2 text-gray-800 shadow font-semibold">
+                            See how we fill the form <span className="text-lg">→</span>
+                        </button>
                     </div>
-                    <div className="text-center">
-                        <div className="text-4xl font-bold mb-2">📋</div>
-                        <h3 className="font-bold mb-1">End-to-End Support</h3>
-                        <p>From eligibility check to pre-filled form PDF.</p>
+                    <div className="pr-36">
+                    {/* Right Language Box */}
+                    <div className="bg-white p-6 rounded-xl shadow-md space-y-4 ">
+                        <div className="bg-black-100 text-white rounded-lg p-4 text-sm leading-relaxed font-bold">
+                            हमर पतिक निधन भऽ गेल अछि,<br /> आ हम गर्भवती छी।
+                        </div>
+                        <div>
+                            <h4 className="text-sm font-semibold text-gray-800">Suggested Scheme</h4>
+                            <p className="text-sm text-gray-600 font-bold">Pradhan Mantri Matru Vandana Yojana</p>
+                        </div>
                     </div>
-                    <div className="text-center">
-                        <div className="text-4xl font-bold mb-2">🌍</div>
-                        <h3 className="font-bold mb-1">Built for Bharat</h3>
-                        <p>Designed for citizens with low digital access and literacy.</p>
+                    </div>
+                </div>
+
+                {/* Bottom Feature Cards */}
+                <div className="bg-orange-50 rounded-xl p-6 md:p-10">
+                    <h2 className="text-center text-xl md:text-2xl font-bold text-gray-900 mb-10">Your Guide to Government Support<br/> Helping Every Citizen, Every Step</h2>
+
+                    <div className="grid md:grid-cols-3 gap-6 text-center">
+                        {/* Card 1 */}
+                        <div className="flex flex-col items-center">
+                            <i class="ri-translate-2 text-3xl mb-4"></i>
+                            <h3 className="font-semibold mb-1">Multilingual AI Agent</h3>
+                            <p className="text-sm text-gray-700 font-semibold">Understands voice and text in native Indian languages.</p>
+                        </div>
+
+                        {/* Card 2 */}
+                        <div className="flex flex-col items-center">
+                            <i class="ri-file-copy-line text-3xl mb-4"></i>
+                            <h3 className="font-semibold mb-1">End-to-End Support</h3>
+                            <p className="text-sm text-gray-700 font-semibold">From eligibility check to pre-filled form PDF.</p>
+                        </div>
+
+                        {/* Card 3 */}
+                        <div className="flex flex-col items-center">
+                            <i class="ri-community-line text-3xl mb-4"></i>
+                            <h3 className="font-semibold mb-1">Built for Bharat</h3>
+                            <p className="text-sm text-gray-700 font-semibold">Designed for citizens with low digital access and literacy.</p>
+                        </div>
                     </div>
                 </div>
             </section>
+
+
+
         </div>
     );
 }
