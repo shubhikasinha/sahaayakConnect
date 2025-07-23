@@ -2,7 +2,7 @@ import React from "react";
 import 'remixicon/fonts/remixicon.css';
 import PhoneNavbar from "../components/PhoneNavbar";
 
-export default function Phone() {
+export default function PhoneHome() {
     return (
         <div className="bg-white text-slate-900">
             <PhoneNavbar />
