@@ -1,7 +1,7 @@
 import React from "react";
 import 'remixicon/fonts/remixicon.css';
 
-const Navbar = () => {
+const PhoneNavbar = () => {
   return (
     <header className="bg-white fixed w-full z-30 top-0 left-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex justify-between items-center">
@@ -23,4 +23,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default PhoneNavbar;
