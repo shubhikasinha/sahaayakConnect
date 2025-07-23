@@ -1,13 +1,13 @@
 import React from "react";
 import 'remixicon/fonts/remixicon.css';
+import Navbar from "../components/Navbar";
 
 
 export default function Home() {
     return (
         <div className="bg-white text-slate-900 ">
-            <div class="fixed left-5 z-20">
-                <img src="sahaayaklogo.png" alt="Logo" class="w-1/5 py-5" />
-            </div>
+            
+            <Navbar/>
             <section
                 className="w-full h-screen bg-no-repeat bg-cover bg-center flex items-center px-6 md:px-26"
                 style={{
@@ -98,7 +98,7 @@ export default function Home() {
                     <div className="pr-36">
                     {/* Right Language Box */}
                     <div className="bg-white p-6 rounded-xl shadow-md space-y-4 ">
-                        <div className="bg-black-100 text-white rounded-lg p-4 text-sm leading-relaxed font-bold">
+                        <div className="bg-[#002645] text-white rounded-lg p-4 text-sm leading-relaxed font-bold">
                             हमर पतिक निधन भऽ गेल अछि,<br /> आ हम गर्भवती छी।
                         </div>
                         <div>
@@ -135,8 +135,11 @@ export default function Home() {
                             <p className="text-sm text-gray-700 font-semibold">Designed for citizens with low digital access and literacy.</p>
                         </div>
                     </div>
+                    
                 </div>
+                
             </section>
+            <h2 className="text-center text-sm font-semibold text-gray-500 mb-4"> • Built with Care by Team SahaayakConnect • </h2>
 
 
 
